@@ -6,7 +6,7 @@
 
 import escapeHtml from 'escape-html';
 
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import datetime from '../../scripts/datetime';
 import imageLoader from '../images/imageLoader';
 import layoutManager from '../layoutManager';

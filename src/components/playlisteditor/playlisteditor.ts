@@ -8,10 +8,10 @@ import escapeHtml from 'escape-html';
 import toast from 'components/toast/toast';
 import dom from 'scripts/dom';
 import globalize from 'lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import { currentSettings as userSettings } from 'scripts/settings/userSettings';
 import { PluginType } from 'types/plugin';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 import { isBlank } from 'utils/string';
 
 import dialogHelper from '../dialogHelper/dialogHelper';

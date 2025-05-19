@@ -1,14 +1,14 @@
 // NOTE: This is used for jsdoc return type
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Api } from '@jellyfin/sdk';
-import { Credentials, ApiClient } from 'jellyfin-apiclient';
+import { Credentials, ApiClient } from 'padzanij-apiclient';
 
 import { appHost } from 'components/apphost';
 import appSettings from 'scripts/settings/appSettings';
 import { setUserInfo } from 'scripts/settings/userSettings';
 import Dashboard from 'utils/dashboard';
 import Events from 'utils/events.ts';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 
 import ConnectionManager from './connectionManager';
 

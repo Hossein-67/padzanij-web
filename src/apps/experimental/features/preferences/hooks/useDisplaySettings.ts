@@ -1,5 +1,5 @@
 import type { UserDto } from '@jellyfin/sdk/lib/generated-client';
-import { ApiClient } from 'jellyfin-apiclient';
+import { ApiClient } from 'padzanij-apiclient';
 import { useCallback, useEffect, useState } from 'react';
 
 import { appHost } from 'components/apphost';

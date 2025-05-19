@@ -9,7 +9,7 @@ import Page from 'components/Page';
 import Button from 'elements/emby-button/Button';
 import Input from 'elements/emby-input/Input';
 import globalize from 'lib/globalize';
-import ServerConnections from 'lib/jellyfin-apiclient/ServerConnections';
+import ServerConnections from 'lib/padzanij-apiclient/ServerConnections';
 
 export const ForgotPasswordPage = () => {
     const navigate = useNavigate();

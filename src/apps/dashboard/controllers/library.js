@@ -228,19 +228,19 @@ function getCollectionTypeOptions() {
     }, {
         name: globalize.translate('Movies'),
         value: 'movies',
-        message: getLink('MovieLibraryHelp', 'https://jellyfin.org/docs/general/server/media/movies')
+        message: getLink('MovieLibraryHelp', 'https://padzanij.org/docs/general/server/media/movies')
     }, {
         name: globalize.translate('TabMusic'),
         value: 'music',
-        message: getLink('MusicLibraryHelp', 'https://jellyfin.org/docs/general/server/media/music')
+        message: getLink('MusicLibraryHelp', 'https://padzanij.org/docs/general/server/media/music')
     }, {
         name: globalize.translate('Shows'),
         value: 'tvshows',
-        message: getLink('TvLibraryHelp', 'https://jellyfin.org/docs/general/server/media/shows')
+        message: getLink('TvLibraryHelp', 'https://padzanij.org/docs/general/server/media/shows')
     }, {
         name: globalize.translate('Books'),
         value: 'books',
-        message: getLink('BookLibraryHelp', 'https://jellyfin.org/docs/general/server/media/books')
+        message: getLink('BookLibraryHelp', 'https://padzanij.org/docs/general/server/media/books')
     }, {
         name: globalize.translate('HomeVideosPhotos'),
         value: 'homevideos'

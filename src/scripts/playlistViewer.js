@@ -1,8 +1,8 @@
 import { getPlaylistsApi } from '@jellyfin/sdk/lib/utils/api/playlists-api';
 
 import listView from 'components/listview/listview';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { ServerConnections } from 'lib/padzanij-apiclient';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 
 function getFetchPlaylistItemsFn(apiClient, itemId) {
     return function () {

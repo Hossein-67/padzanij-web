@@ -1,11 +1,11 @@
 import escapeHtml from 'escape-html';
 
 import { getLyricsApi } from '@jellyfin/sdk/lib/utils/api/lyrics-api';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 import dialogHelper from '../dialogHelper/dialogHelper';
 import layoutManager from '../layoutManager';
 import globalize from 'lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import loading from '../loading/loading';
 import focusManager from '../focusManager';
 import dom from '../../scripts/dom';

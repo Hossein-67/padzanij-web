@@ -8,12 +8,12 @@ import { playbackManager } from './playback/playbackmanager';
 import inputManager from '../scripts/inputManager';
 import { appRouter } from './router/appRouter';
 import globalize from '../lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import dom from '../scripts/dom';
 import recordingHelper from './recordingcreator/recordinghelper';
 import toast from './toast/toast';
 import * as userSettings from '../scripts/settings/userSettings';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 
 function playAllFromHere(card, serverId, queue) {
     const parent = card.parentNode;

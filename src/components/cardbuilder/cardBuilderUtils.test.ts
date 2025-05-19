@@ -628,7 +628,7 @@ describe('resolveCardImageContainerCssClasses', () => {
         expect(resolveCardImageContainerCssClasses({
             itemType: '',
             itemName: 'Movie Name',
-            imgUrl: 'https://jellyfin.org/some-image',
+            imgUrl: 'https://padzanij.org/some-image',
             hasCoverImage: false
         })).toEqual('cardImageContainer');
     });

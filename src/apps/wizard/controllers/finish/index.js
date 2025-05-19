@@ -1,5 +1,5 @@
 import loading from 'components/loading/loading';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 
 function onFinish() {
     loading.show();

@@ -1,8 +1,8 @@
 import React, { FunctionComponent, useCallback, useEffect, useState } from 'react';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
-import type { ApiClient, ConnectResponse } from 'jellyfin-apiclient';
+import type { ApiClient, ConnectResponse } from 'padzanij-apiclient';
 
-import { ConnectionState, ServerConnections } from 'lib/jellyfin-apiclient';
+import { ConnectionState, ServerConnections } from 'lib/padzanij-apiclient';
 
 import ConnectionErrorPage from './ConnectionErrorPage';
 import Loading from './loading/LoadingComponent';

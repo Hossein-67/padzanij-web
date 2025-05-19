@@ -47,15 +47,15 @@ export function getDeviceIcon(info: DeviceInfo | SessionInfo) {
         case 'Kodi':
         case 'Kodi JellyCon':
             return BASE_DEVICE_IMAGE_URL + 'kodi.svg';
-        case 'Jellyfin Android':
+        case 'Padzanij Android':
         case 'AndroidTV':
         case 'Android TV':
             return BASE_DEVICE_IMAGE_URL + 'android.svg';
-        case 'Jellyfin Mobile (iOS)':
-        case 'Jellyfin Mobile (iPadOS)':
-        case 'Jellyfin iOS':
-        case 'Jellyfin iPadOS':
-        case 'Jellyfin tvOS':
+        case 'Padzanij Mobile (iOS)':
+        case 'Padzanij Mobile (iPadOS)':
+        case 'Padzanij iOS':
+        case 'Padzanij iPadOS':
+        case 'Padzanij tvOS':
         case 'Swiftfin iPadOS':
         case 'Swiftfin iOS':
         case 'Swiftfin tvOS':
@@ -65,14 +65,14 @@ export function getDeviceIcon(info: DeviceInfo | SessionInfo) {
             return BASE_DEVICE_IMAGE_URL + 'apple.svg';
         case 'Home Assistant':
             return BASE_DEVICE_IMAGE_URL + 'home-assistant.svg';
-        case 'Jellyfin for WebOS':
+        case 'Padzanij for WebOS':
         case 'LG Smart TV':
             return BASE_DEVICE_IMAGE_URL + 'webos.svg';
-        case 'Jellyfin Roku':
+        case 'Padzanij Roku':
             return BASE_DEVICE_IMAGE_URL + 'roku.svg';
         case 'Finamp':
             return BASE_DEVICE_IMAGE_URL + 'finamp.svg';
-        case 'Jellyfin Web':
+        case 'Padzanij Web':
             return getWebDeviceIcon((info as DeviceInfo).Name || (info as SessionInfo).DeviceName);
         default:
             if (info.Capabilities?.IconUrl) {

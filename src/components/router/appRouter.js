@@ -7,8 +7,8 @@ import loading from '../loading/loading';
 import alert from '../alert';
 
 import { getItemQuery } from 'hooks/useItem';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { ServerConnections } from 'lib/padzanij-apiclient';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 import { queryClient } from 'utils/query/queryClient';
 import { history } from 'RootAppRouter';
 

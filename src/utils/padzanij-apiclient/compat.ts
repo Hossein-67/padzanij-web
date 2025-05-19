@@ -1,5 +1,5 @@
-import { Api, Jellyfin } from '@jellyfin/sdk';
-import { ApiClient } from 'jellyfin-apiclient';
+import { Api, Jellyfin as Padzanij } from '@jellyfin/sdk';
+import { ApiClient } from 'padzanij-apiclient';
 
 /**
  * Returns an SDK Api instance using the same parameters as the provided ApiClient.
@@ -7,7 +7,7 @@ import { ApiClient } from 'jellyfin-apiclient';
  * @returns {Api} An equivalent SDK Api instance.
  */
 export const toApi = (apiClient: ApiClient): Api => {
-    return (new Jellyfin({
+    return (new Padzanij({
         clientInfo: {
             name: apiClient.appName(),
             version: apiClient.appVersion()

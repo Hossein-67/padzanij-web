@@ -1,4 +1,4 @@
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import { PluginType } from 'types/plugin.ts';
 
 export default class PhotoPlayer {

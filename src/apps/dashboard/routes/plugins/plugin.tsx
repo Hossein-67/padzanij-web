@@ -43,7 +43,7 @@ interface AlertMessage {
 }
 
 // Plugins from this url will be trusted and not prompt for confirmation when installing
-const TRUSTED_REPO_URL = 'https://repo.jellyfin.org/';
+const TRUSTED_REPO_URL = 'https://repo.padzanij.org/';
 
 const PluginPage: FC = () => {
     const { api } = useApi();

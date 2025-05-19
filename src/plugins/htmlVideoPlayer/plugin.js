@@ -3,7 +3,7 @@ import debounce from 'lodash-es/debounce';
 import Screenfull from 'screenfull';
 
 import { AppFeature } from 'constants/appFeature';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import { MediaError } from 'types/mediaError';
 
 import browser from '../../scripts/browser';

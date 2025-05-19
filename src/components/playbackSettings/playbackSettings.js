@@ -4,7 +4,7 @@ import escapeHTML from 'escape-html';
 import { MediaSegmentAction } from 'apps/stable/features/playback/constants/mediaSegmentAction';
 import { getId, getMediaSegmentAction } from 'apps/stable/features/playback/utils/mediaSegmentSettings';
 import { AppFeature } from 'constants/appFeature';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 
 import appSettings from '../../scripts/settings/appSettings';
 import { appHost } from '../apphost';

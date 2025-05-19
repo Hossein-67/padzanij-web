@@ -2,7 +2,7 @@ import DOMPurify from 'dompurify';
 import markdownIt from 'markdown-it';
 
 import { AppFeature } from 'constants/appFeature';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 
 import { appHost } from '../../../components/apphost';
 import appSettings from '../../../scripts/settings/appSettings';

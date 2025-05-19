@@ -21,7 +21,7 @@ import { keepPreviousData, useMutation, useQuery } from '@tanstack/react-query';
 import datetime from 'scripts/datetime';
 import globalize from 'lib/globalize';
 
-import { type JellyfinApiContext, useApi } from './useApi';
+import { type PadzanijApiContext, useApi } from './useApi';
 import { getAlphaPickerQuery, getFieldsQuery, getFiltersQuery, getLimitQuery } from 'utils/items';
 import { getProgramSections, getSuggestionSections } from 'utils/sections';
 
@@ -33,7 +33,7 @@ import type { ItemDtoQueryResult } from 'types/base/models/item-dto-query-result
 import type { ItemDto } from 'types/base/models/item-dto';
 
 const fetchGetItems = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     parametersOptions: ItemsApiGetItemsRequest,
     options?: AxiosRequestConfig
 ) => {
@@ -69,7 +69,7 @@ export const useGetItems = (parametersOptions: ItemsApiGetItemsRequest) => {
 };
 
 const fetchGetMovieRecommendations = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     parentId: ParentId,
     options?: AxiosRequestConfig
 ) => {
@@ -104,7 +104,7 @@ export const useGetMovieRecommendations = (isMovieRecommendationEnabled: boolean
 };
 
 const fetchGetGenres = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     itemType: BaseItemKind[],
     parentId: ParentId,
     options?: AxiosRequestConfig
@@ -139,7 +139,7 @@ export const useGetGenres = (itemType: BaseItemKind[], parentId: ParentId) => {
 };
 
 const fetchGetStudios = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     parentId: ParentId,
     itemType: BaseItemKind[],
     options?: AxiosRequestConfig
@@ -178,7 +178,7 @@ export const useGetStudios = (parentId: ParentId, itemType: BaseItemKind[]) => {
 };
 
 const fetchGetQueryFiltersLegacy = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     parentId: ParentId,
     itemType: BaseItemKind[],
     options?: AxiosRequestConfig
@@ -216,7 +216,7 @@ export const useGetQueryFiltersLegacy = (
 };
 
 const fetchGetItemsViewByType = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     viewType: LibraryTab,
     parentId: ParentId,
     itemType: BaseItemKind[],
@@ -393,7 +393,7 @@ export const useGetItemsViewByType = (
 };
 
 const fetchPlaylistsMoveItem = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     requestParameters: PlaylistsApiMoveItemRequest
 ) => {
     const { api, user } = currentApi;
@@ -462,7 +462,7 @@ function groupsUpcomingEpisodes(items: ItemDto[]) {
 }
 
 const fetchGetGroupsUpcomingEpisodes = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     parentId: ParentId,
     options?: AxiosRequestConfig
 ) => {
@@ -507,7 +507,7 @@ interface ToggleFavoriteMutationProp {
 }
 
 const fetchUpdateFavoriteStatus = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     itemId: string,
     isFavorite: boolean
 ) => {
@@ -543,7 +543,7 @@ interface TogglePlayedMutationProp {
 }
 
 const fetchUpdatePlayedState = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     itemId: string,
     isPlayed: boolean
 ) => {
@@ -628,7 +628,7 @@ function groupsTimers(timers: ItemDto[], indexByDate?: boolean) {
 }
 
 const fetchGetTimers = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     indexByDate?: boolean,
     options?: AxiosRequestConfig
 ) => {
@@ -660,7 +660,7 @@ export const useGetTimers = (isUpcomingRecordingsEnabled: boolean, indexByDate?:
 };
 
 const fetchGetSectionItems = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     parentId: ParentId,
     section: Section,
     options?: AxiosRequestConfig
@@ -850,7 +850,7 @@ type SectionWithItems = {
 };
 
 const getSectionsWithItems = async (
-    currentApi: JellyfinApiContext,
+    currentApi: PadzanijApiContext,
     parentId: ParentId,
     sections: Section[],
     sectionType?: SectionType[],

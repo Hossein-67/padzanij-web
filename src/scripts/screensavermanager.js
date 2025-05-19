@@ -1,6 +1,6 @@
 import { playbackManager } from 'components/playback/playbackmanager';
 import { pluginManager } from 'components/pluginManager';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import { PluginType } from 'types/plugin.ts';
 import Events from 'utils/events.ts';
 

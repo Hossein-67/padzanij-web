@@ -2,14 +2,14 @@ import escapeHtml from 'escape-html';
 import Headroom from 'headroom.js';
 // NOTE: Used for jsdoc
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { ApiClient } from 'jellyfin-apiclient';
+import { ApiClient } from 'padzanij-apiclient';
 
 import { AppFeature } from 'constants/appFeature';
 import { getUserViewsQuery } from 'hooks/useUserViews';
 import globalize from 'lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import { EventType } from 'types/eventType';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 import { queryClient } from 'utils/query/queryClient';
 
 import dom from './dom';
@@ -691,7 +691,7 @@ let navDrawerInstance;
 let mainDrawerButton;
 let headerHomeButton;
 let currentDrawerType;
-let documentTitle = 'Jellyfin';
+let documentTitle = 'Padzanij';
 let pageTitleElement;
 let headerBackButton;
 let headerUserButton;

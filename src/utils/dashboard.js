@@ -1,7 +1,7 @@
 import { appHost } from 'components/apphost';
 import viewContainer from 'components/viewContainer';
 import { AppFeature } from 'constants/appFeature';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 
 import toast from '../components/toast/toast';
 import loading from '../components/loading/loading';

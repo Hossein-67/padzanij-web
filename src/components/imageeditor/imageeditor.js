@@ -5,7 +5,7 @@ import dom from '../../scripts/dom';
 import layoutManager from '../layoutManager';
 import focusManager from '../focusManager';
 import globalize from '../../lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import scrollHelper from '../../scripts/scrollHelper';
 import imageLoader from '../images/imageLoader';
 import browser from '../../scripts/browser';

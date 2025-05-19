@@ -5,7 +5,7 @@ import Page from 'components/Page';
 import { AppFeature } from 'constants/appFeature';
 import LinkButton from 'elements/emby-button/LinkButton';
 import globalize from 'lib/globalize';
-import { ConnectionState } from 'lib/jellyfin-apiclient';
+import { ConnectionState } from 'lib/padzanij-apiclient';
 
 interface ConnectionErrorPageProps {
     state: ConnectionState
@@ -24,7 +24,7 @@ const ConnectionErrorPage: FC<ConnectionErrorPageProps> = ({
                 setTitle(globalize.translate('HeaderUpdateRequired'));
                 setHtmlMessage(globalize.translate(
                     'ServerUpdateNeeded',
-                    '<a href="https://jellyfin.org/downloads/server/">jellyfin.org/downloads/server</a>'
+                    '<a href="https://padzanij.org/downloads/server/">padzanij.org/downloads/server</a>'
                 ));
                 setMessage(undefined);
                 return;

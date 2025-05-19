@@ -1,4 +1,4 @@
-# Jellyfin Contributors
+# Padzanij Contributors
 
 - [JoshuaBoniface](https://github.com/joshuaboniface)
 - [nvllsvm](https://github.com/nvllsvm)
@@ -165,6 +165,6 @@
 - [SvenVandenbrande](https://github.com/SvenVandenbrande)
 <!--
     NOTE: This is the end of the list of past Emby Contributors.
-    New Jellyfin contributors should add their name to the end
-    of the list of Jellyfin Contributors above. NOT HERE ;)
+    New Padzanij contributors should add their name to the end
+    of the list of Padzanij Contributors above. NOT HERE ;)
 -->

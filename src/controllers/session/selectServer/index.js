@@ -19,7 +19,7 @@ import '../../../elements/emby-button/emby-button';
 import Dashboard from '../../../utils/dashboard';
 import alert from '../../../components/alert';
 import { getDefaultBackgroundClass } from '../../../components/cardbuilder/cardBuilderUtils';
-import { ConnectionState, ServerConnections } from 'lib/jellyfin-apiclient';
+import { ConnectionState, ServerConnections } from 'lib/padzanij-apiclient';
 
 const enableFocusTransform = !browser.slow && !browser.edge;
 
@@ -124,8 +124,8 @@ export default function (view, params) {
 
                 case ConnectionState.ServerUpdateNeeded:
                     alertTextWithOptions({
-                        text: globalize.translate('core#ServerUpdateNeeded', 'https://github.com/jellyfin/jellyfin'),
-                        html: globalize.translate('core#ServerUpdateNeeded', '<a href="https://github.com/jellyfin/jellyfin">https://github.com/jellyfin/jellyfin</a>')
+                        text: globalize.translate('core#ServerUpdateNeeded', 'https://github.com/padzanij/padzanij'),
+                        html: globalize.translate('core#ServerUpdateNeeded', '<a href="https://github.com/padzanij/padzanij">https://github.com/padzanij/padzanij</a>')
                     });
                     break;
 

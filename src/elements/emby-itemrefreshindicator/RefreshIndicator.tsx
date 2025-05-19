@@ -1,4 +1,4 @@
-import { ApiClient } from 'jellyfin-apiclient';
+import { ApiClient } from 'padzanij-apiclient';
 import React, { type FC, useCallback, useEffect, useState } from 'react';
 import Events, { Event } from 'utils/events';
 import serverNotifications from 'scripts/serverNotifications';

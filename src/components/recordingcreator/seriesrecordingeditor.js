@@ -1,6 +1,6 @@
 import dialogHelper from '../dialogHelper/dialogHelper';
 import globalize from '../../lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import layoutManager from '../layoutManager';
 import loading from '../loading/loading';
 import scrollHelper from '../../scripts/scrollHelper';

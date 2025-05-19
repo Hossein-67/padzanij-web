@@ -23,7 +23,7 @@ import { appRouter } from 'components/router/appRouter';
 import itemShortcuts from 'components/shortcuts';
 import { AppFeature } from 'constants/appFeature';
 import globalize from 'lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import browser from 'scripts/browser';
 import datetime from 'scripts/datetime';
 import dom from 'scripts/dom';
@@ -33,7 +33,7 @@ import * as userSettings from 'scripts/settings/userSettings';
 import { getPortraitShape, getSquareShape } from 'utils/card';
 import Dashboard from 'utils/dashboard';
 import Events from 'utils/events';
-import { getItemBackdropImageUrl } from 'utils/jellyfin-apiclient/backdropImage';
+import { getItemBackdropImageUrl } from 'utils/padzanij-apiclient/backdropImage';
 
 import 'elements/emby-itemscontainer/emby-itemscontainer';
 import 'elements/emby-checkbox/emby-checkbox';

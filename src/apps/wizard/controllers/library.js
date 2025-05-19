@@ -4,7 +4,7 @@ import { getDefaultBackgroundClass } from 'components/cardbuilder/cardBuilderUti
 import confirm from 'components/confirm/confirm';
 import loading from 'components/loading/loading';
 import globalize from 'lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import dom from 'scripts/dom';
 import taskButton from 'scripts/taskbutton';
 import Dashboard, { pageClassOn, pageIdOn } from 'utils/dashboard';
@@ -236,19 +236,19 @@ function getCollectionTypeOptions() {
     }, {
         name: globalize.translate('Movies'),
         value: 'movies',
-        message: getLink('MovieLibraryHelp', 'https://jellyfin.org/docs/general/server/media/movies')
+        message: getLink('MovieLibraryHelp', 'https://padzanij.org/docs/general/server/media/movies')
     }, {
         name: globalize.translate('TabMusic'),
         value: 'music',
-        message: getLink('MusicLibraryHelp', 'https://jellyfin.org/docs/general/server/media/music')
+        message: getLink('MusicLibraryHelp', 'https://padzanij.org/docs/general/server/media/music')
     }, {
         name: globalize.translate('Shows'),
         value: 'tvshows',
-        message: getLink('TvLibraryHelp', 'https://jellyfin.org/docs/general/server/media/shows')
+        message: getLink('TvLibraryHelp', 'https://padzanij.org/docs/general/server/media/shows')
     }, {
         name: globalize.translate('Books'),
         value: 'books',
-        message: getLink('BookLibraryHelp', 'https://jellyfin.org/docs/general/server/media/books')
+        message: getLink('BookLibraryHelp', 'https://padzanij.org/docs/general/server/media/books')
     }, {
         name: globalize.translate('HomeVideosPhotos'),
         value: 'homevideos'

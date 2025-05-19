@@ -1,6 +1,6 @@
 import type { LibraryUpdateInfo } from '@jellyfin/sdk/lib/generated-client/models/library-update-info';
 import { MediaType } from '@jellyfin/sdk/lib/generated-client/models/media-type';
-import { ApiClient } from 'jellyfin-apiclient';
+import { ApiClient } from 'padzanij-apiclient';
 import React, { type FC, type PropsWithChildren, useCallback, useEffect, useRef } from 'react';
 import classNames from 'classnames';
 import Box from '@mui/material/Box';

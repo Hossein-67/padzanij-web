@@ -11,7 +11,7 @@ import type { TaskInfo } from '@jellyfin/sdk/lib/generated-client/models/task-in
 import { SessionMessageType } from '@jellyfin/sdk/lib/generated-client/models/session-message-type';
 import serverNotifications from 'scripts/serverNotifications';
 import Events, { Event } from 'utils/events';
-import { ApiClient } from 'jellyfin-apiclient';
+import { ApiClient } from 'padzanij-apiclient';
 import { useApi } from 'hooks/useApi';
 import { queryClient } from 'utils/query/queryClient';
 

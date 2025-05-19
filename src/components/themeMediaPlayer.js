@@ -3,11 +3,11 @@ import { MediaType } from '@jellyfin/sdk/lib/generated-client/models/media-type'
 import { getLibraryApi } from '@jellyfin/sdk/lib/utils/api/library-api';
 
 import { getItemQuery } from 'hooks/useItem';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import { currentSettings as userSettings } from 'scripts/settings/userSettings';
 import { ItemKind } from 'types/base/models/item-kind';
 import Events from 'utils/events.ts';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 import { queryClient } from 'utils/query/queryClient';
 
 import { playbackManager } from './playback/playbackmanager';

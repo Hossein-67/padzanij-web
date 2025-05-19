@@ -4,7 +4,7 @@
  */
 import { AppFeature } from 'constants/appFeature';
 import dialogHelper from '../dialogHelper/dialogHelper';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import inputManager from '../../scripts/inputManager';
 import layoutManager from '../layoutManager';
 import focusManager from '../focusManager';

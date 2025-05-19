@@ -1,10 +1,10 @@
 import type { BaseItemDto } from '@jellyfin/sdk/lib/generated-client/models/base-item-dto';
 import type { BaseItemKind } from '@jellyfin/sdk/lib/generated-client/models/base-item-kind';
-import type { ApiClient } from 'jellyfin-apiclient';
+import type { ApiClient } from 'padzanij-apiclient';
 
 import cardBuilder from 'components/cardbuilder/cardBuilder';
 import globalize from 'lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import type { UserSettings } from 'scripts/settings/userSettings';
 import { getBackdropShape, getPortraitShape } from 'utils/card';
 

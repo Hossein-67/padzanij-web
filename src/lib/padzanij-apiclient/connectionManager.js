@@ -1,7 +1,7 @@
 import { AUTHORIZATION_HEADER } from '@jellyfin/sdk/lib/api';
 import { getAuthorizationHeader } from '@jellyfin/sdk/lib/utils';
 import { MINIMUM_VERSION } from '@jellyfin/sdk/lib/versions';
-import { ApiClient } from 'jellyfin-apiclient';
+import { ApiClient } from 'padzanij-apiclient';
 
 import events from 'utils/events';
 import { ajax } from 'utils/fetch';

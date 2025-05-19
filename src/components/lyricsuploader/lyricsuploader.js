@@ -1,14 +1,14 @@
 import escapeHtml from 'escape-html';
 
 import { getLyricsApi } from '@jellyfin/sdk/lib/utils/api/lyrics-api';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 import dialogHelper from '../../components/dialogHelper/dialogHelper';
 import dom from '../../scripts/dom';
 import loading from '../../components/loading/loading';
 import scrollHelper from '../../scripts/scrollHelper';
 import layoutManager from '../layoutManager';
 import globalize from 'lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import template from './lyricsuploader.template.html';
 import toast from '../toast/toast';
 import '../../elements/emby-button/emby-button';

@@ -22,8 +22,8 @@ import confirm from 'components/confirm/confirm';
 import { getDefaultBackgroundClass } from 'components/cardbuilder/cardBuilderUtils';
 
 import { getSystemInfoQuery } from 'hooks/useSystemInfo';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { ServerConnections } from 'lib/padzanij-apiclient';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 import { queryClient } from 'utils/query/queryClient';
 
 import 'elements/emby-button/emby-button';

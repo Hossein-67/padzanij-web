@@ -14,7 +14,7 @@ import ListItemText from '@mui/material/ListItemText';
 import ListSubheader from '@mui/material/ListSubheader';
 import Menu, { MenuProps } from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import type { ApiClient } from 'jellyfin-apiclient';
+import type { ApiClient } from 'padzanij-apiclient';
 import React, { FC, useCallback, useEffect, useState } from 'react';
 
 import { pluginManager } from 'components/pluginManager';

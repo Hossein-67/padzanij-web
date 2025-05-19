@@ -3,7 +3,7 @@ import { getUserViewsQuery } from 'hooks/useUserViews';
 import globalize from 'lib/globalize';
 import { DEFAULT_SECTIONS, HomeSectionType } from 'types/homeSectionType';
 import Dashboard from 'utils/dashboard';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 import { queryClient } from 'utils/query/queryClient';
 
 import { loadRecordings } from './sections/activeRecordings';

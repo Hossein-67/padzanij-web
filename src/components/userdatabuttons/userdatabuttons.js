@@ -1,5 +1,5 @@
 import globalize from '../../lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import dom from '../../scripts/dom';
 import itemHelper from '../itemHelper';
 

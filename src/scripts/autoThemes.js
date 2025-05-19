@@ -1,6 +1,6 @@
 import * as userSettings from './settings/userSettings';
 import skinManager from './themeManager';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import { pageClassOn } from 'utils/dashboard';
 import Events from 'utils/events.ts';
 

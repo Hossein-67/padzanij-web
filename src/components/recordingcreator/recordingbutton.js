@@ -1,4 +1,4 @@
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import dom from '../../scripts/dom';
 import recordingHelper from './recordinghelper';
 

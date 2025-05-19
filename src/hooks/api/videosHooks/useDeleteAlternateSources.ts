@@ -1,10 +1,10 @@
 import type { VideosApiDeleteAlternateSourcesRequest } from '@jellyfin/sdk/lib/generated-client';
 import { getVideosApi } from '@jellyfin/sdk/lib/utils/api/videos-api';
 import { useMutation } from '@tanstack/react-query';
-import { type JellyfinApiContext, useApi } from 'hooks/useApi';
+import { type PadzanijApiContext, useApi } from 'hooks/useApi';
 
 const deleteAlternateSources = async (
-    apiContext: JellyfinApiContext,
+    apiContext: PadzanijApiContext,
     params: VideosApiDeleteAlternateSourcesRequest
 ) => {
     const { api } = apiContext;

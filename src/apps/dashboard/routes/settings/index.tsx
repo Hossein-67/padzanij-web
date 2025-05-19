@@ -10,7 +10,7 @@ import Loading from 'components/loading/LoadingComponent';
 import Page from 'components/Page';
 import { QUERY_KEY, useConfiguration } from 'hooks/useConfiguration';
 import globalize from 'lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import React, { useCallback, useEffect, useState } from 'react';
 import { type ActionFunctionArgs, Form, useActionData, useNavigation } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search';
@@ -158,7 +158,7 @@ export const Component = () => {
                                 helperText={(
                                     <>
                                         <span>{globalize.translate('LabelDisplayLanguageHelp')}</span>
-                                        <Link href='https://jellyfin.org/docs/general/contributing/#translating'>
+                                        <Link href='https://padzanij.org/docs/general/contributing/#translating'>
                                             {globalize.translate('LearnHowYouCanContribute')}
                                         </Link>
                                     </>

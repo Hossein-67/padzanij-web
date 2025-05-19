@@ -164,9 +164,9 @@ export default function(view) {
                 dialogHelper.close(dialog);
             };
 
-            // Check the repository URL for the official Jellyfin repository domain, or
+            // Check the repository URL for the official Padzanij repository domain, or
             // present the warning for 3rd party plugins.
-            if (!repositoryUrl.startsWith('https://repo.jellyfin.org/')) {
+            if (!repositoryUrl.startsWith('https://repo.padzanij.org/')) {
                 let msg = globalize.translate('MessageRepositoryInstallDisclaimer');
                 msg += '<br/>';
                 msg += '<br/>';

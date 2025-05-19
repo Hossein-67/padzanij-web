@@ -1,8 +1,8 @@
 {
-    "name": "Jellyfin",
+    "name": "Padzanij",
     "description": "The Free Software Media System",
     "lang": "en-US",
-    "short_name": "Jellyfin",
+    "short_name": "Padzanij",
     "start_url": "index.html#/home",
     "theme_color": "#101010",
     "background_color": "#101010",

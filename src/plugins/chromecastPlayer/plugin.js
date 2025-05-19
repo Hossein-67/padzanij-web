@@ -4,10 +4,10 @@ import { playbackManager } from '../../components/playback/playbackmanager';
 import globalize from '../../lib/globalize';
 import CastSenderApi from './castSenderApi';
 import alert from '../../components/alert';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import { PluginType } from '../../types/plugin.ts';
 import Events from '../../utils/events.ts';
-import { getItems } from '../../utils/jellyfin-apiclient/getItems.ts';
+import { getItems } from '../../utils/padzanij-apiclient/getItems.ts';
 
 // Based on https://github.com/googlecast/CastVideos-chrome/blob/master/CastVideos.js
 

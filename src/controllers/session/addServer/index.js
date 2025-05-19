@@ -1,6 +1,6 @@
 import loading from 'components/loading/loading';
 import globalize from 'lib/globalize';
-import { ConnectionState, ServerConnections } from 'lib/jellyfin-apiclient';
+import { ConnectionState, ServerConnections } from 'lib/padzanij-apiclient';
 import appSettings from 'scripts/settings/appSettings';
 import Dashboard from 'utils/dashboard';
 
@@ -23,7 +23,7 @@ function handleConnectionResult(page, result) {
             break;
         case ConnectionState.ServerUpdateNeeded:
             Dashboard.alert({
-                message: globalize.translate('ServerUpdateNeeded', '<a href="https://github.com/jellyfin/jellyfin">https://github.com/jellyfin/jellyfin</a>')
+                message: globalize.translate('ServerUpdateNeeded', '<a href="https://github.com/padzanij/padzanij">https://github.com/padzanij/padzanij</a>')
             });
             break;
         case ConnectionState.Unavailable:

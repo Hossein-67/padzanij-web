@@ -1,5 +1,5 @@
 /**
- * Server state values for a connected server used by jellyfin-apiclient.
+ * Server state values for a connected server used by padzanij-apiclient.
  */
 export const enum ConnectionState {
     SignedIn = 'SignedIn',

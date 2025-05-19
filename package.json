@@ -1,8 +1,8 @@
 {
-  "name": "jellyfin-web",
+  "name": "padzanij-web",
   "version": "10.11.0",
-  "description": "Web interface for Jellyfin",
-  "repository": "https://github.com/jellyfin/jellyfin-web",
+  "description": "Web interface for Padzanij",
+  "repository": "https://github.com/padzanij/padzanij-web",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@babel/core": "7.26.10",
@@ -108,7 +108,7 @@
     "history": "5.3.0",
     "hls.js": "1.6.2",
     "intersection-observer": "0.12.2",
-    "jellyfin-apiclient": "1.11.0",
+    "padzanij-apiclient": "1.11.0",
     "jquery": "3.7.1",
     "jstree": "3.3.17",
     "libarchive.js": "2.0.2",

@@ -5,7 +5,7 @@ import alert from 'components/alert';
 import confirm from 'components/confirm/confirm';
 import { appRouter } from 'components/router/appRouter';
 import globalize from 'lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 
 function alertText(options) {
     return alert(options);

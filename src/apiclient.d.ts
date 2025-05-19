@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-declare module 'jellyfin-apiclient' {
+declare module 'padzanij-apiclient' {
     import type {
         AllThemeMediaResult,
         AuthenticationResult,
@@ -67,7 +67,7 @@ declare module 'jellyfin-apiclient' {
         UtcTimeResponse,
         VirtualFolderInfo
     } from '@jellyfin/sdk/lib/generated-client';
-    import type { ConnectionState } from 'lib/jellyfin-apiclient';
+    import type { ConnectionState } from 'lib/padzanij-apiclient';
 
     class ApiClient {
         constructor(serverAddress: string, appName: string, appVersion: string, deviceName: string, deviceId: string);

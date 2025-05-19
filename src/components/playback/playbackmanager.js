@@ -18,17 +18,17 @@ import { appHost } from '../apphost';
 import alert from '../alert';
 import { PluginType } from '../../types/plugin.ts';
 import { includesAny } from '../../utils/container.ts';
-import { getItems } from '../../utils/jellyfin-apiclient/getItems.ts';
-import { getItemBackdropImageUrl } from '../../utils/jellyfin-apiclient/backdropImage';
+import { getItems } from '../../utils/padzanij-apiclient/getItems.ts';
+import { getItemBackdropImageUrl } from '../../utils/padzanij-apiclient/backdropImage';
 
 import { PlayerEvent } from 'apps/stable/features/playback/constants/playerEvent';
 import { bindMediaSegmentManager } from 'apps/stable/features/playback/utils/mediaSegmentManager';
 import { bindMediaSessionSubscriber } from 'apps/stable/features/playback/utils/mediaSessionSubscriber';
 import { AppFeature } from 'constants/appFeature';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import { MediaError } from 'types/mediaError';
 import { getMediaError } from 'utils/mediaError';
-import { toApi } from 'utils/jellyfin-apiclient/compat';
+import { toApi } from 'utils/padzanij-apiclient/compat';
 import { bindSkipSegment } from './skipsegment.ts';
 
 const UNLIMITED_ITEMS = -1;

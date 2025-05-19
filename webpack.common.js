@@ -44,7 +44,7 @@ const config = {
     context: path.resolve(__dirname, 'src'),
     target: 'browserslist',
     entry: {
-        'main.jellyfin': './index.jsx',
+        'main.padzanij': './index.jsx',
         ...THEMES_BY_ID
     },
     resolve: {
@@ -73,7 +73,7 @@ const config = {
             // Append file hashes to bundle urls for cache busting
             hash: true,
             chunks: [
-                'main.jellyfin',
+                'main.padzanij',
                 'serviceworker'
             ]
         }),

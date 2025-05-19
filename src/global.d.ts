@@ -1,5 +1,5 @@
 export declare global {
-    import { ApiClient, Events } from 'jellyfin-apiclient';
+    import { ApiClient, Events } from 'padzanij-apiclient';
 
     interface Window {
         ApiClient: ApiClient;

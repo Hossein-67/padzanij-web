@@ -9,7 +9,7 @@ import focusManager from 'components/focusManager';
 
 import keyboardNavigation from 'scripts/keyboardNavigation';
 import globalize from 'lib/globalize';
-import { ServerConnections } from 'lib/jellyfin-apiclient';
+import { ServerConnections } from 'lib/padzanij-apiclient';
 import LibraryMenu from 'scripts/libraryMenu';
 import Events from 'utils/events';
 
